@@ -60,18 +60,19 @@ AI 用久了，电脑会越来越满、越来越烫。让 AI 帮忙清理，它�
 ## 仓库里有什么
 
 ```text
+README.md / README.en.md         中文 / 英文说明
 skill/mac-ai-checkup/
   SKILL.md                       给 AI 看的流程和边界
-  references/容易漏掉的地方.md     28 条盲区：是什么、为什么会漏、怎么查
+  references/容易漏掉的地方.md     28 条盲区：是什么、为什么会漏、怎么查（英文版 blind-spots.en.md）
   scripts/weekly-checkup.mjs     每周体检，只读，只列异常
   scripts/workspace-audit.mjs    指定文件夹的只读盘点
   scripts/audit.mjs              macOS 常见缓存位置的只读盘点
   config.example.json            每周体检的设置样例
 templates/
-  AGENTS.md                      AI 规矩模板
+  AGENTS.md                      AI 规矩模板（英文版 AGENTS.en.md）
   backup.sh                      备份脚本模板（可以先 --dry-run 试）
 docs/
-  方法.md                         可以借鉴的做法
+  方法.md                         可以借鉴的做法（英文版 method.en.md）
 ```
 
 ## 适用
