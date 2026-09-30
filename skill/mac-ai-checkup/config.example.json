@@ -1,0 +1,133 @@
+{
+  "version": 1,
+  "workspace": {
+    "path": "~/Documents/AI Workspace",
+    "allowedTop": [
+      "projects",
+      "outputs",
+      "scratch",
+      "AGENTS.md",
+      "CLAUDE.md",
+      ".claude",
+      ".gitignore"
+    ],
+    "ageDays": {
+      "scratch": 30,
+      "outputs": 90,
+      "projects": 90,
+      "projectWork": 30
+    },
+    "keepProjects": [],
+    "projectWorkDirs": [
+      "work"
+    ]
+  },
+  "extraScratch": [
+    {
+      "label": "Codex 对话文件夹",
+      "path": "~/Documents/Codex",
+      "depth": 2,
+      "ageDays": 30,
+      "skip": []
+    }
+  ],
+  "looseSpots": [
+    {
+      "label": "主目录",
+      "path": "~",
+      "allowed": [
+        "Applications",
+        "Desktop",
+        "Documents",
+        "Downloads",
+        "Library",
+        "Movies",
+        "Music",
+        "Pictures",
+        "Public"
+      ],
+      "hint": "主目录里不该有散文件夹；AI 工具自己建的文件夹问一句还用不用"
+    },
+    {
+      "label": "桌面",
+      "path": "~/Desktop",
+      "ageDays": 14,
+      "allowed": [],
+      "hint": "两周没动的截图和文件，要留的挪去该去的地方，不要的删"
+    },
+    {
+      "label": "下载",
+      "path": "~/Downloads",
+      "ageDays": 14,
+      "allowed": [],
+      "hint": "装完的安装包、看完的资料、传完的附件；要留的挪去该去的地方，其余点头就进废纸篓"
+    }
+  ],
+  "repos": {
+    "root": "~/Documents/GitHub",
+    "alsoScan": [
+      "~/Documents/AI Workspace/projects"
+    ],
+    "strayDepth": 4,
+    "skipHomeDirs": [
+      "Library",
+      "Applications",
+      "Music",
+      "Pictures",
+      "Movies",
+      "Public"
+    ],
+    "ignoreStray": [
+      "~/Documents/AI Workspace",
+      "~/Documents/Codex"
+    ]
+  },
+  "backupStamp": {
+    "path": "~/Library/Mobile Documents/com~apple~CloudDocs/Mac 备份/最近一次备份.txt",
+    "maxDays": 8
+  },
+  "toolDirs": [
+    "~/.claude",
+    "~/.codex",
+    "~/Library/Application Support/Claude",
+    "~/Library/Caches",
+    "~/Library/Logs"
+  ],
+  "growthAlertGB": 2,
+  "deletedOpenAlertGB": 1,
+  "trashAlertGB": 10,
+  "serviceWorkerAlertGB": 1,
+  "localModelPaths": [
+    "~/Library/Application Support/Google/Chrome/OptGuideOnDeviceModel"
+  ],
+  "lowDiskGB": 50,
+  "bigLogMB": 200,
+  "logRoots": [
+    "~/Library/Logs",
+    "~/.local/share"
+  ],
+  "binDirs": [
+    "~/.npm-global/bin",
+    "~/.local/bin",
+    "/opt/homebrew/bin",
+    "/usr/local/bin"
+  ],
+  "checkLoginItems": true,
+  "keepAwakeMaxHours": 2,
+  "baseline": {
+    "launchAgents": [],
+    "loginItems": [],
+    "listenCommands": [],
+    "keepAwake": [
+      "powerd",
+      "sharingd"
+    ],
+    "keepAwakeSystem": [
+      "powerd",
+      "sharingd"
+    ],
+    "codexAutomations": [],
+    "ignoreAgentStatus": [],
+    "knownSecretPaths": []
+  }
+}

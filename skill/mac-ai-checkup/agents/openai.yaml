@@ -1,0 +1,3 @@
+interface:
+  display_name: "AI 电脑体检"
+  short_description: "给 Mac 做一次 AI 时代的体检：找出你和 AI 都容易漏掉的占用、悄悄失败的后台和 AI 留下的乱，删除只进废纸篓"
