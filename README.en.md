@@ -2,9 +2,7 @@
 
 [中文](README.md)
 
-**A set of lessons you install into your own AI, so that when it helps clean up your Mac, it doesn't miss the biggest items or delete the wrong things.**
-
-The longer you use AI, the fuller and hotter your computer gets. Ask AI to clean it up and it will work hard to find big files and clear caches. But the biggest items are often not on its list: they don't show errors, they aren't called Cache, and they look like nobody has used them in a long time. This skill comes from a real cleanup. In two days it freed up more than 200 GB, fixed a background service that had been quietly failing for months, and also deleted the wrong thing a few times along the way.
+The more you use AI, the more junk and tools pile up on your Mac, and when AI cleans up on its own, the biggest items are usually not on its list. This skill is a set of lessons you install into your own AI for cleaning up a Mac and keeping it in shape, from a real cleanup of mine: 200+ GB freed in two days, plus a few things deleted by mistake. With it installed, your AI won't miss the biggest items or delete the wrong things: Trash only, and nothing moves until you say yes.
 
 ## 12 blind spots you and your AI both tend to miss
 
